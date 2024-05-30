@@ -1,0 +1,12 @@
+{
+  "name": "01_basichttpservers",
+  "version": "1.0.0",
+  "description": "```\r Basic HTTP Server which returns a response as text\r ```",
+  "main": "textServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
