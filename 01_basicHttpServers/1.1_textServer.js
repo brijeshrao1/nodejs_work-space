@@ -7,6 +7,7 @@ const localhost='localhost';
 
 //Creating request listener
 function requestListener(req,res){
+    res.setHeader('content-Type','application/text');
     res.writeHead(200,"I am listening");
     res.end("textServer"); //returning text data as a textServer to the client as response
 }
